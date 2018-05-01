@@ -1,0 +1,91 @@
+body {
+    height: 100%;
+}
+#main {
+    height: 1600px;
+}
+img {
+    float: left;
+}
+
+#me{
+    width: 20%;
+    transform: rotate(90);
+    margin:20px;
+}
+
+.label {
+    border-bottom: 1px solid grey;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 3em;
+    
+}
+
+li {
+    display: inline;
+    font-size: 1.5em;
+    padding : 0px 20px;
+}
+
+ol {
+    list-style-type: none;
+    float: right; 
+    
+    
+}
+
+#header {
+    padding: 20px 100px 0px 100px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 50px;
+}
+#header a {
+    text-decoration: none;
+    color: grey;
+}
+
+#name {
+    display: inline;
+    color: white;
+    padding: 0px 10px;
+    background-color: #4aaaa5;
+}
+
+#content {
+    width: 960px;
+    margin: auto;
+    font-size: 1.5em;
+    border: 2px solid #dddddd;
+    overflow: auto; 
+}
+
+#content p {
+    padding: 20px;
+    
+}
+
+#footer {
+    background-color: #666666;
+    height: 50px;
+}
+.portimg {
+   width: 300px;
+   margin: 20px 60px 20px 60px;
+} 
+
+label {
+    display: block;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+}
+
+#headerContainer{
+    width: 960px;
+    margin: auto;
+}
