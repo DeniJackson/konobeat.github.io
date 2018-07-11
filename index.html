@@ -1,35 +1,78 @@
 <html>
     <head>
-        <title>About Me</title>
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Bootstrap Portfolio</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         
+
     </head>
-    <body>
-        <div id="main">
-            
-        <div id="header">
-                <div id="headerContainer">
-                <h1 id="name">Denina Jackson</h1>
-                <ol>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html" id="break">Portfolio</a></li>
-                    <li><a href="contact.html">Contacts</a></li>
-                </ol>
+    <body class="bg-light">
+        
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-white mb-4">
+                    <div class="container">
+                    <a class="navbar-brand" href="#">Denina Jackson</a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                       
+                      </ul>
+                    </div>
                 </div>
+                  </nav>
                 
-        </div>
-        <div id="content">
-            <h1 class="label">About Me</h1>
-            <img src="assets/images/20180418_170643.jpg" alt="" id="me">
-            <p>Denina Jackson was born and raised in Richmond, VA, where she currently resides today. Growing up with an interest in art, design, and technology, it is no surprise that she was attracted to the world of Software Development at a young age.</p>
+        
+        <div class="container bg-dark border rounded">
+
+            <div class="row">
+
+                <div class="col-sm-12 border-right border-white p-5   col-lg-8 text-light">
+                    <img src="assets/images/20180418_170643.jpg" class="img-thumbnail float-left w-25 m-2" alt="">
+                    <p>Denina Jackson was born and raised in Richmond, VA, where she currently resides today. Growing up with an interest in art, design, and technology, it is no surprise that she was attracted to the world of Software Development at a young age.</p>
             
             <p>Her hobbies come in a wide range. This includes Video Games, reading, Philospophy, and fitness. She loves movies and will often be found curled up in bed binging netflix shows.</p>
-        </div>
-        
-    </div>
-    <div id="footer">Copyright &copy;</div>
-    
+                    <div>
+                        <i class="fab fa-html5 fa-6x m-2"></i>
+                        <i class="fab fa-css3-alt fa-6x m-2"></i>
+                        <i class="fab fa-js fa-6x m-2"></i>
+                        <i class="fab fa-git-square fa-6x m-2"></i>
+                    </div>
 
+                </div>
+                <div class="col-lg-4 border-left border-top border-white h-75 col-sm-12 text-light">
+                    <h1 class="text-center">Connect:</h1>
+                        <a href="https://github.com/konobeat"><i class="fab fa-github-square fa-5x m-2"></i></a>   
+                        <a href="https://www.linkedin.com/in/denina-jackson-18597b75"><i class="fab fa-linkedin fa-5x m-2"></i></a>
+                        <i class="fab fa-twitter-square fa-5x m-2"></i>
+                    
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <footer class="footer fixed-bottom bg-secondary text-light text-center p-3">
+            <div class="container">
+                    <p>copyright &copy;</p>
+            </div> 
+            </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     </body>
 </html>
